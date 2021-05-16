@@ -30,7 +30,7 @@ yum install redis -y
 
 Схема  подлючения.
 
-![image-20210516163404483](C:\Users\kaa\AppData\Roaming\Typora\typora-user-images\image-20210516163404483.png)
+![image](https://user-images.githubusercontent.com/52449706/118400757-a7ecc500-b66b-11eb-8ac5-7efc12fb73b7.png)
 
 Я в установке буду использовать 3 сервера, , на каждом из которых запущено по два экземпляра Redis (Master+Slave, не зависимых друг от друга).
 
