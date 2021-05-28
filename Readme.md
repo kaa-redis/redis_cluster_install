@@ -313,4 +313,4 @@ redis-cli -c -h 192.168.3.221 -p 6379
 | ---------------------------------- | ------------------------------------------------------------ |
 | Добавления Slave к первому master  | redis-cli --cluster  add-node 192.168.3.223:6379 192.168.3.221:6379 --cluster-slave --cluster-master-id a0d5d543abd25afa068cb9e250f80c4668f14fb9 |
 | Добавления Slave ко второму master | redis-cli --cluster  add-node 192.168.3.221:6380 192.168.3.222:6380--cluster-slave --cluster-master-id 0868bc8ede4375f8e3d260422dbda9bd29771555 |
-| Добавления Slave к третьему master | redis-cli --cluster  add-node 192.168.3.222:6381 192.168.3.223:6381 --cluster-slave --cluster-master-id a0d5d543abd25afa068cb9e250f80c4668f14fb9 |
+| Добавления Slave к третьему master | redis-cli --cluster  add-node 192.168.3.222:6381 192.168.3.223:6381 --cluster-slave --cluster-master-id f9b92d6bc17fce4d01717e884698b9cc87215f68|
